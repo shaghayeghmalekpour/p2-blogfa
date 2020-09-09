@@ -1,0 +1,164 @@
+
+body{
+    direction: rtl;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+.site{
+    width: 1200px;
+    margin: auto;
+}
+.header-logo{
+    float: left;
+    margin-bottom: 10px;
+    /*
+   position: absolute;
+   left: 159px;
+   top: 9px; */
+}
+.clear{
+    clear: both;
+}
+.creat-blog{
+    width: 960px;
+height: 180px;
+background-image: url('header.gif');
+float: left;
+text-align: center;
+ /*margin: -23px;
+margin-top: 15px; */
+}
+.creat-blog p{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    top: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.creat-blog button{
+    background-color: #1f467a;
+    color: white;
+    font-size: 12px;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+.creat-blog button:hover{
+    background-color: white;
+    color: #1f467a;
+}
+
+.login{
+    width: 240px;
+    height: 180px;
+    background-color: #fafafa;;
+    text-align: center;
+    float: right;
+   /* margin: 15px;
+    margin-right: -19px; */
+
+}
+.login input{
+    height: 35px;
+    width: 217px;
+    border: 1px solid #C0C0C0;
+    margin: 5px;
+    background-color:white;
+    font-size: 12px;
+    text-align: center;
+}
+.login button{
+    height: 35px;
+    width: 217px;
+background-color:#2196f3 ;
+text-align: center;
+font-size:13px ;
+color: white;
+border: none;
+margin-bottom: 10px;
+}
+.login button:hover{
+    background-color: midnightblue;
+}
+
+.login a{
+    text-decoration: none;
+    font-size: 13px;
+}
+.login a:hover{
+    color: red;
+}
+
+.titleup{
+   
+    text-align: center;
+    margin-top: -18px;
+}
+.titleup a{ 
+    padding-top: 0;
+text-decoration: none;
+    color: #116491;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: white;
+   
+   
+}
+.line{
+  border: none;
+    border-bottom: 1px solid #d4c8c8;
+    margin-top: 205px;
+}
+
+.blog-item{
+    background-color:#f5f5f5;
+width: 24%;
+display: inline-block;
+border: 1px solid #f0f0f0;
+margin: 2px;
+}
+.blog-item:hover{
+    background-color: hsl(0, 2%, 88%);
+}
+.main ul{
+    margin-top: 15px;
+}
+
+.title{
+    padding: 0;
+    margin:  5px 0;
+    font-size: 15px;
+    font-weight: normal;
+}
+.address{
+    font-size: 12px;
+    color: #C0C0C0  ;
+}
+.desc{ 
+    font-size: 13px;
+    text-align: justify;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.footer li{
+    display: inline-block;
+    color: #C0C0C0;
+
+} 
+.footer a{
+    text-decoration: none;
+    font-size: 12px;
+    color:#1f467a ;
+    margin: 5px;
+}
